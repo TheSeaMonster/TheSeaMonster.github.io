@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>Main Page</head>
+    <head>
+        <style>
+            .myDiv {
+                border: 4px outset darkslategray;
+                position:relative;
+                background-color:lightseagreen;
+                text-align: center;
+            }
+            .Flex {
+                position:relative;
+            }
+        </style>
+    </head>
     <body> 
-            <body style="background-color:LightGray;">
+            <body class="Flex" style="background-color:LightSlateGray;">
 
-                    <h1 style="color: mediumblue" >Welcome to my website</h1>
-                        <p style="background-color:LightBlue;" >Blueberries are really nice, you should eat them</p>
+                    <h1 style="color: white;background-color: darkslategray;border:4px outset black" >Welcome to my website</h1>
+                        <p style="background-color:LightBlue;" >Blueberries are really nice</p>
                             <br>
-                        <p style="color: red">Here are a few useful links</p>
+                        <p style="color: darkred;background-color: white;border: 2px outset darkslategray">Here are a few useful links</p>
                             <br>
                         <button><a href="info.html">Information about this page</a></button>
                             <br>
-                            <br>
                         <button><a style="color:orchid" href="page3.html">A Shakespeare poem</a></button>
-                            <br>
                             <br>
                         <button><a style="color:green" href="https://kajk03.github.io/">Visit Kajk03's website</a></button>
                             <br>
-                            <br>
                         <button><a style="color:tomato" href="https://wilhelm331.github.io/">Visit Wilhelm331's website</a></button>
                             <br>
-                            <br>
+                        <div class="myDiv">
                         <button><a style="color:black" href="https://www.wikipedia.org/">Link to Wikipedia</a></button>
                             <br>
+                        <iframe height=300 width=700 src="https://en.wikipedia.org/wiki/Main_Page"></iframe>
+                        </div>
                             <br>
-                        <button><a style="color:darkred" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Link to Youtube</a></button>
+                        <div class="myDiv">
+                        <button><a style="color:darkred" href="https://www.youtube.com/">Link to Youtube</a></button>
                             <br>
+                        <iframe height=300 width=533 src="https://www.youtube.com/embed/B7UmUX68KtE"></iframe>
+                        </div>  
                             <br>
-                                <img src="https://image.sciencenordic.com/1446359.jpg?imageId=1446359&width=480&height=274"/>
-                            
+                        <div class="myDiv">
+                                <img style="border:darkslategray" height=500 width=800 src="https://image.sciencenordic.com/1446359.jpg?imageId=1446359&width=480&height=274"/>
+                        </div>
                             <br>
                         <h3>A list of things to come on this page</h3>
                         <dl>
