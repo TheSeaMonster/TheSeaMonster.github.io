@@ -1,0 +1,45 @@
+body{
+    background:lightslategray;
+    width: 800px;
+    height:100%;
+    margin-left: auto;
+    margin-right:auto;
+    border-width: 6px;
+    border-style: double;
+    border-color: darkslategray;
+    padding:20px;
+}
+
+h1{
+ color:greenyellow;
+ font-weight: 100;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 34px;
+}
+
+h3{
+    color:greenyellow; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: 100;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16.5px;
+    font-weight: 100;
+    line-height: 130%
+}
+img.furniture {
+    float:right;
+    width:165px;
+
+}
+a{
+    color: saddlebrown; 
+}
+
+hr{
+    color:darkslategray;
+    border-style: dashed;
+    border-width: 2px
+}
