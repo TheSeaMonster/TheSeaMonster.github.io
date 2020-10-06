@@ -1,18 +1,18 @@
 body {
     background-color:lightslategray;
-    font-family:comic sans ms,sans-serif;
+    font-family:"comic sans ms",sans-serif;
     font-size: 14px;
 }
 h1{
     background-color:darkslategray;
     color:white;
     border:4px outset black;
-    font-size: 50 px;
+    font-size: 50px;
 
 }
 head {
     background-color:lightslategray;
-    font-family:comic sans ms,sans-serif;
+    font-family:"comic sans ms",sans-serif;
     font-size: 14px;
 }
 h2 {
@@ -23,7 +23,7 @@ h2 {
 }
 button {
     background-color:lightgray;
-    font-family:comic sans ms,sans-serif;
+    font-family:"comic sans ms",sans-serif;
     font-size: 20px;
     border:2px outset darkslategray;
 }
