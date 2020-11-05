@@ -1,0 +1,19 @@
+.mainstyle{
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:2%;
+    padding:5%;
+    background-color:lightgray;
+    height:80%;
+    font-family: Comic Sans MS;
+    row-gap: 5px;
+    border-style:groove;
+    border-width:5px;
+    border-radius:5px;
+}
+.background{
+    padding:20px;
+    background-color:tomato;
+    min-height:90%;
+    min-width:100px;
+}
