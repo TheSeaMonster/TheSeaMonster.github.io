@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>
+    JS Examples
+</title>
+</head>
+<body>
+    <h1>Javascript examples:</h1>
+<button onclick="myFunction1()">Click to change text design</button>
+<p id="demo1">I like Javascript</p>
+<button onclick="myFunction2()">Click to get an alert</button>
+<br>
+<br>
+<button onclick="myFunction3()">Click to display your current time</button>
+<p id="demo3"></p>
+<button onclick="myFunction4()">Click to NOT get rick rolled</button>
+<br>
+<br>
+<button onclick="myFunction5()">Click to get a confirm box</button>
+<br>
+<br>
+<button onclick="myFunction6()">Click to print</button>
+<br>
+<br>
+<button onclick="myFunction7()">Click to display URL</button>
+<p id="demo7"></p>
+<button onclick="myFunction8()">Click to display Hostname</button>
+<p id="demo8"></p>
+<script>
+   function myFunction1(){
+    document.getElementById("demo1").style.backgroundColor = "red";   
+    document.getElementById("demo1").style.fontFamily = "Comic Sans MS";
+   }
+   function myFunction2(){
+    alert("Alert alert");
+   }
+   function myFunction3(){
+   document.getElementById('demo3').innerHTML = Date();
+   }
+   function myFunction4(){
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+   }
+   function myFunction5(){
+    confirm("Press OK or cancel");
+   }
+   function myFunction6(){
+    window.print();   
+   }
+   function myFunction7(){
+    document.getElementById('demo7').innerHTML=window.location.href;
+   }
+   function myFunction8(){
+    document.getElementById('demo8').innerHTML=window.location.hostname;
+   }
+</script>
+</body>
+
+<!-- alert
+new window
+skriv ut host
+confirm
+print preview
+input med prompt
+dagens datum
+byt färg
+ -->
+ </html>
