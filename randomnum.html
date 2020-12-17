@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gissa nummer</title>
+    </head>
+    <body>
+        <h1>Gissa tal</h1>
+        <p>Gissa på ett slumpat tal mellan 1 och 50! Du har 5 gissningar.</p>
+        <div class="form"> 
+            <label for="usrguess">Gissa på ett tal! </label> 
+            <input type = "text" id = "usrguess" class = "usrguess"> 
+            <input type = "submit" value = "Gissa!" class = "guessSubmit" id = "submitusrguess"> 
+        </div> 
+
+        <script>
+            var number = Math.floor(Math.random()*50+1); 
+            var userguesses=1;
+            document.getElementById("submitusrguess").onclick = function(){ 
+                var guessesremaining=5-userguesses;
+                var usrguess = document.getElementById("usrguess").value; 
+            if (usrguess==number){
+                alert("Du hade rätt! Talet är " + number);
+            }
+            if (userguesses>=5){
+                alert("Du förlorade! Talet var " + number);
+            }
+            if (usrguess>number){
+                latest=usrguess;
+                userguesses++
+                alert("För stort tal! Din senaste gissning var " + latest + ". Du har " + guessesremaining + " gissningar kvar.");
+            }
+            if (usrguess<number){
+                latest=usrguess;
+                userguesses++
+                alert("För litet tal! Din senaste gissning var " + latest + ". Du har " + guessesremaining + " gissningar kvar.");
+            }
+        }
+        </script>
+    </body>
+</html>
