@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Processing to JavaScript</h2>
+<canvas id="Canvas" width="230" height="150" style="border:2px solid black;"></canvas>
+<script>
+var staplar=[45,78,89,95,67,89,23,123,93,129,98];
+var i=0;
+var stap = document.getElementById("Canvas");
+var ctx = stap.getContext("2d"); 
+while (i>20){
+ctx.beginPath();
+i++;
+ctx.rect(i*10, 150, 5, staplar[i]);
+ctx.fill();
+ctx.stroke();
+ctx.closePath();}
+</script>
+</canvas>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Processing to JavaScript</h2>
+<canvas id="Canvas" width="400" height="200" style="border:2px solid black;">
+
+<script>
+var x = 200;
+var y = 100;
+var z = 60;
+var circle1 = document.getElementById("Canvas");
+var ctx = circle1.getContext("2d"); 
+ctx.beginPath();
+ctx.arc(x, y, z, 0, 2 * Math.PI);
+ctx.arc(x, y, z-20, 0, 2* Math.PI);
+ctx.stroke();
+</script>
+
+</canvas>
+</body>
+</html>
