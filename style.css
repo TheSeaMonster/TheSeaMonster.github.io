@@ -28,7 +28,7 @@ button {
     font-size: 20px;
     border:2px outset darkslategray;
 }
-a {
+.ea {
     display:block;
     font-size: 14px;
     background-color: lightgray;
@@ -39,9 +39,21 @@ a {
     height:100%;
     width:25%
 }
-a:hover{
+.oa {
+    font-size:24px;
+    background-color: lightblue;
+    border: 1px outset darkcyan;
+    padding:0px;
+    transition-duration: 500ms;
+
+}
+.ea:hover{
  background-color: tomato;
  border: 4px outset darkslategray;
  color:white;
  font-size:16px;
+}
+.oa:hover{
+    background-color: tomato;
+    color:white;
 }
